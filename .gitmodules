@@ -1,0 +1,3 @@
+[submodule "zkvyper-bin"]
+	path = zkvyper-bin
+	url = https://github.com/matter-labs/zkvyper-bin
