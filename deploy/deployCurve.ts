@@ -1,5 +1,4 @@
-import { utils, Wallet } from 'zksync-web3';
-import * as ethers from 'ethers';
+import { Wallet } from 'zksync-web3';
 import { HardhatRuntimeEnvironment, HttpNetworkHDAccountsConfig } from 'hardhat/types';
 import { Deployer } from '@matterlabs/hardhat-zksync-deploy';
 
