@@ -8,9 +8,12 @@ import { HardhatUserConfig } from 'hardhat/config';
 
 const config: HardhatUserConfig = {
     zkvyper: {
-        compilerSource: 'binary',
+        compilerSource: 'docker',
         settings: {
-            compilerPath: './zkvyper-bin/linux-amd64/zkvyper-linux-amd64-musl-v1.1.2',
+            experimental: {
+                dockerImage: 'matterlabs/zkvyper',
+                tag: 'latest',
+            },
         },
     },
     zkSyncDeploy: {
