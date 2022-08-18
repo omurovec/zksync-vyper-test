@@ -1,6 +1,6 @@
 # ZkSync Vyper tests
 
-Minimum example using base on https://v2-docs.zksync.io/dev/guide/hello-world.html#initializing-the-project-deploying-smart-contract
+Minimum example based on https://v2-docs.zksync.io/dev/guide/hello-world.html#initializing-the-project-deploying-smart-contract
 
 To run the example define copy an 
 
